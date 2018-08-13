@@ -1,0 +1,21 @@
+{
+    "name": "abdou/abdou-lorem-ipsum-bundle",
+    "description": "abdou lorem generator",
+    "type": "symfony-plugin",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "abdou Camara",
+            "email": "contactme@abdou-webdev.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abdou\\LoremIpsumBundle\\": "/src"
+        }
+    }
+}
